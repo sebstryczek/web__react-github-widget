@@ -1,0 +1,27 @@
+{
+  "name": "github-widget",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.18.0",
+    "prop-types": "^15.6.1",
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2",
+    "react-scripts": "1.1.4",
+    "styled-components": "^3.2.6"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "test:e2e": "testcafe chrome ./e2e/*.e2e.js"
+  },
+  "devDependencies": {
+    "axios-mock-adapter": "^1.15.0",
+    "enzyme": "^3.3.0",
+    "enzyme-adapter-react-16": "^1.1.1",
+    "moxios": "^0.4.0",
+    "testcafe": "^0.20.0"
+  }
+}
